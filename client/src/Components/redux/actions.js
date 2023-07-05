@@ -14,7 +14,7 @@ export const ORDER_BY_POPULATION = "ORDER_BY_POPULATION";
 export const getCountries = () => {
     return async (dispatch) => {
         try {
-            const requestCountries = await axios.get(`http://localhost:3001/countries`)
+            const requestCountries = await axios.get(`/countries`)
             return dispatch({
                 type: GET_COUNTRIES,
                 payload: requestCountries.data
@@ -28,7 +28,7 @@ export const getCountries = () => {
 export const searchCountries = (idPais) => {
     return async (dispatch) => {
         try {
-            const search = await axios.get(`http://localhost:3001/countries?name=${idPais}`)
+            const search = await axios.get(`/countries?name=${idPais}`)
              return dispatch({
                 type: SEARCH_COUNTRIES,
                 payload: search.data
@@ -44,7 +44,7 @@ export const searchCountries = (idPais) => {
 export const getDetail = (id) => {
     return async function(dispatch){
         try {
-            let detail = await axios.get(`http://localhost:3001/countries/${id}`);
+            let detail = await axios.get(`/countries/${id}`);
             return dispatch({
                 type: GET_DETAIL,
                 payload: detail.data
@@ -59,7 +59,7 @@ export const getDetail = (id) => {
 export const getActivities = () => {
     return async (dispatch) => {
         try {
-            const activities = await axios.get(`http://localhost:3001/activities`);
+            const activities = await axios.get(`/activities`);
             return dispatch({
                 type: GET_ACTIVITIES,
                 payload: activities.data
@@ -72,7 +72,7 @@ export const getActivities = () => {
 }
 export const postActivities = (payload) => {
     return async (dispatch) => {
-        await axios.post('http://localhost:3001/activities', payload);
+        await axios.post('/activities', payload);
         return dispatch({
             type: POST_ACTIVITIES,
         })
