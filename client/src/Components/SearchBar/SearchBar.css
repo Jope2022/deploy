@@ -1,0 +1,150 @@
+.centrarTodo{
+  margin-left:100px 
+}
+.centrarFiltar{
+  margin-left: 100px;
+}
+
+.containerSearchBar{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 2050px;
+  gap: 25px;
+  margin: 100 auto;
+  margin-bottom: 10px;
+	background-image: url('https://besthqwallpapers.com/Uploads/29-12-2020/149458/thumb-world-map-4k-blue-world-map-blue-background-world-map-concepts.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 1050px;
+	color: #4909e9;
+	border: #fff;
+  z-index: -3;
+}
+
+.content{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+
+.containerColumna {
+  background-color: royalblue;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  height: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -30px;
+  z-index: -2;
+ 
+}
+
+.inputSearchBar {
+  border-radius: 4.5em;
+  margin-top: 10px;
+  margin-left: 900px;
+  padding: 1em;
+  width: 450px;
+  font-weight: 500px;
+  font-size: 1em;
+  background-color:rgb(246, 243, 240);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  padding: 10px 15px;
+  background-color: #d3701f; /* Agregamos un color de fondo */
+  display: inline-block;
+  margin: 10px;
+  margin-left: 10px;
+  color: white
+}
+
+.submit-button {
+  display: inline-block;
+  width: calc(10.33% - 20px); 
+  
+}
+
+.submit-button h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #fff;
+  
+}
+
+.imgenSearchBar {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 15px; 
+}
+
+.submit-button h5 {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonPagination {
+  padding: 1px 1px;
+  margin: 0 2px;
+  border: none;
+  background-color: transparent;
+  color: honeydew;
+  cursor: pointer;
+}
+
+.centrarBanderaSeachBar{
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+
+}
+.centrarBandera{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100px;
+  width: 250px;
+  border-radius: 5px;
+  
+}

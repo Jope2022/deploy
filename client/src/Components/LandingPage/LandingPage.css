@@ -1,0 +1,38 @@
+.containerLoading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+		background-image: url("https://http2.mlstatic.com/vinilos-murales-infantiles-mapamundi-con-paises-170x130-D_NQ_NP_439025-MLA25389644721_022017-F.jpg");
+	background-size: cover;
+	background-position: center;
+    color: blue;
+	width:auto;
+	height: 940px;
+	margin-left: 1px; 
+	
+}
+
+.h2Lading{
+	background-color: wheat;
+	border-radius: 15px;
+	width:550px;
+	height: 550px;
+	font-size: 15px;
+	text-align: center; 
+	line-height: 2;
+
+}
+ 
+.buttonLading {
+	font-size: 1.5rem;
+	padding: 0.7rem 1rem;
+	border-radius: 50px;
+	background-color:black;
+	color: aliceblue;
+	border: none;
+	text-decoration: none;
+	
+	
+}
+  

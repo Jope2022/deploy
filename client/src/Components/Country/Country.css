@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+}
+
+.submit-button {
+  flex: 0 0 calc(18.33% - 30px);
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #8f7dec;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 350px;
+  height: 380px;
+}
+
+.submit-button h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.submit-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.submit-button h5 {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #fff;
+}
